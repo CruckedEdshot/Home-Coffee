@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(177, 104, 51);
+    background-image: url();
+
+}
+header{
+    display: flex ;
+    justify-content: space-between;
+    background-color:rgb(141, 90, 22);
+    height: 120px;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+nav a {
+ font-weight: 600;
+ padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+.fotocafe{
+    height: 300px;
+}
+.mapouter {
+    width: 500px;
+}
+iframe{
+    padding-left: 311px;
+width: 900px;
+}
