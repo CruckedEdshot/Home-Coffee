@@ -49,11 +49,12 @@ border: 10px chocolate;
 .Historia{
     border: 3px solid black;
     text-align: center;
+    padding: 50px;
 }
 .CafeCuadro{
-    width: 900px;
-    height: 300px;
-    padding-left: 600px;
+    width: 100%;
+    padding: 0;
+    height: 428px;
 }
 .BajaPre{
     text-align: center;
@@ -73,7 +74,9 @@ footer {
     background-color: #ddb892;
     color: white;
     border: 3px #5e3023;
-    bottom: 0%;}
+    bottom: 0%;
+margin-top: 5%;}
+
     h2 h3{
         color: #ddb892;
         text-align: center;
@@ -90,8 +93,10 @@ footer {
     }
     .LaTabla{
         font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%
+        border-collapse: collapse;
+        width: 80% ;
+        margin-left: 200px;
+    
     }
     td, th {
         border: 1px solid #ddb892;
