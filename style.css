@@ -1,17 +1,17 @@
 body{
     font-family: sans-serif;
     margin: 0;
-    background-color: rgb(177, 104, 51);
-    background-image: url();
-
-}
+    background-color:#895737; }
 header{
     display: flex ;
     justify-content: space-between;
-    background-color:rgb(141, 90, 22);
-    height: 120px;
+    background-color: #5e3023;
+    width: 100%;
+    height: 77px;
     align-items: center;
     padding: 10px;
+    position: fixed;
+    top: 0%;
 }
 a{
     text-decoration: none;
@@ -34,11 +34,82 @@ nav a:hover{
 }
 .fotocafe{
     height: 300px;
+    display: flex;
+    margin-top: 100%;
 }
 .mapouter {
     width: 500px;
 }
 iframe{
-    padding-left: 311px;
+    padding-left: 500px;
 width: 900px;
+border: 10px chocolate;
 }
+
+.Historia{
+    border: 3px solid black;
+    text-align: center;
+}
+.CafeCuadro{
+    width: 900px;
+    height: 300px;
+    padding-left: 600px;
+}
+.BajaPre{
+    text-align: center;
+    color: beige;
+    font-family: sans-serif
+}
+.Intro2{
+    text-align: center;
+    color: beige;
+}
+.SobreNos{
+    color: #ddb892;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #ddb892;
+    color: white;
+    border: 3px #5e3023;
+    bottom: 0%;}
+    h2 h3{
+        color: #ddb892;
+        text-align: center;
+    }
+    body::-webkit-scrollbar {
+        width: 19px;
+      }
+    body::-webkit-scrollbar-track {
+      background:#ddb892;
+    }
+    body::-webkit-scrollbar-thumb {
+      background-color: #5e3023;
+      height: 60px;
+    }
+    .LaTabla{
+        font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%
+    }
+    td, th {
+        border: 1px solid #ddb892;
+        text-align: left;
+        padding: 8px;}
+
+    tr:nth-child(even) {
+            background-color: #ddb892;
+          }
+     aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float:right;
+            font-style: italic;
+            background-color: #432818;
+          }
+          .Productores{
+            color: #ddb892;
+            text-align: center;
+          }
